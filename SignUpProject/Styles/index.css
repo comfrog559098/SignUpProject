@@ -1,4 +1,4 @@
-﻿@charset "UTF-8";
+﻿
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 @import url('https://fonts.googleapis.com/css?family=Lobster+Two');
 @import url('https://fonts.googleapis.com/css?family=Acme');
@@ -41,22 +41,19 @@ nav > ul {
 }
 
 nav > ul > li {
-    display: inline-block;
+
     float: right;
 }
 
-nav > ul > li > a {
-    display: block;
-    text-align: center;
-    padding-top: 12px;
-    padding-bottom: 11px;
-    padding-left: 42px;
-    padding-right: 42px;
-    margin: 0;
-    text-decoration: none;
-    font-family: 'Lobster', serif;
-    font-size: 1.8em;
-}
+    nav > ul > li > a {
+        display: block;
+        text-align: center;
+        padding: 12px 42px 11px 42px;
+        margin: 0;
+        text-decoration: none;
+        font-family: 'Lobster', serif;
+        font-size: 1.8em;
+    }
 
 nav > ul > li > a:link, nav > ul > li > a:visited {
     color:black;
