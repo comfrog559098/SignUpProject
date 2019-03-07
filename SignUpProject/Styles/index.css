@@ -20,15 +20,16 @@ body {
 }
 
 #buttons {
+    margin: auto;
     width: 100%;
     display:flex;
-    justify-content:center;
+    justify-content: center;
 }
 
 input[type="submit"] {
-    margin: auto;
-    display: inline-block;
-    width: 100%;
+    margin: 1%;
+    height: 50px;
+    background-color: #8795E8;
     border: 2px solid black;
 }
 

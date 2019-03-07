@@ -10,4 +10,28 @@ public partial class index : System.Web.UI.Page
     {
         //test push
     }
+
+    protected void Unnamed4_Click(object sender, EventArgs e)//Browser Bytes
+    {
+        Response.Redirect("SignupPage.aspx");
+        Application["host"] = "browserbytes";
+    }
+
+    protected void Unnamed1_Click(object sender, EventArgs e)//Surge Protectors
+    {
+        Response.Redirect("SignupPage.aspx");
+        Application["host"] = "surgeprotectors";
+    }
+
+    protected void Unnamed2_Click(object sender, EventArgs e)//End Game
+    {
+        Response.Redirect("SignupPage.aspx");
+        Application["host"] = "endgame";
+    }
+
+    protected void Unnamed3_Click(object sender, EventArgs e)//Robohost
+    {
+        Response.Redirect("SignupPage.aspx");
+        Application["host"] = "robohost";
+    }
 }
