@@ -6,6 +6,7 @@
 html {
     padding: 0;
     margin: 0;
+    height: 100%;
     background: -webkit-linear-gradient(to top,#FF6AD5, #94D0FF);
     background: linear-gradient(to top, #FF6AD5, #94D0FF);
 }
@@ -14,11 +15,27 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100%;
 }
 
 #test {
-    height: 900px;
+    width: 100%;
+}
+
+#test > button {
+    width: auto;
+}
+
+#text {
+    margin-top: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-size: 1.5em;
+    margin-left: 15%;
+    margin-right: 15%;
+    background: rgba(255,106,213,20);
+    text-align: center;
 }
 
 .navbar {
