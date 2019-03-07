@@ -21,6 +21,8 @@ body {
 
 #buttons {
     width: 100%;
+    display:flex;
+    justify-content:center;
 }
 
 input[type="submit"] {
