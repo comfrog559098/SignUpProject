@@ -19,6 +19,17 @@ body {
     width: 100%;
 }
 
+#buttons {
+    width: 100%;
+}
+
+input[type="submit"] {
+    margin: auto;
+    display: inline-block;
+    width: 100%;
+    border: 2px solid black;
+}
+
 #test {
     width: 100%;
 }

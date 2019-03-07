@@ -17,10 +17,13 @@
                     Ｃｌｉｃｋ　ａｎｙ　ｏｆ　ｔｈｅ　ｂｕｔｔｏｎｓ　ｂｅｌｏｗ　ｔｏ　ｒｅｄｉｒｅｃｔ　ｔｏ　ｔｈｅ　ｒｅｓｐｅｃｔｉｖｅ　ｓｉｇｎ－ｕｐ　ｐａｇｅ！
                 </span>
             </div>
-            <asp:Button runat="server"/>
-            <asp:Button runat="server"/>
-            <asp:Button runat="server"/>
-            <asp:Button runat="server"/>
+
+            <div id="buttons">
+                <asp:Button runat="server" class="eggnog" Width="305px"/>
+                <asp:Button runat="server" class="eggnog" ID="Button1" Width="305px"/>
+                <asp:Button runat="server" class="eggnog" ID="Button2" Width="305px"/>
+                <asp:Button runat="server" class="eggnog" ID="Button3" Width="305px"/>
+            </div>
         </div>
     </form>
 </body>
