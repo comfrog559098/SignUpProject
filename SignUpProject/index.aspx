@@ -8,16 +8,19 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class="navbar">
-            <nav id="mainlinks">
-                <ul>
-                    <li><a href="index.aspx">Home</a></li>
-                    <li><a href="Contact.aspx">Contact</a> </li>
-                </ul>
-            </nav>
-        </div>
         <div id="test">
-
+            <div id="text">
+                <span>
+                    Ｗｅｌｃｏｍｅ　ｔｏ　ｔｈｅ　Ｗｅｂ　Ｈｏｓｔｉｎｇ　Ｓｉｇｎ－ｕｐ　Ｐａｇｅ　ｆｏｒ　ｔｈｅ　Ｉｎｔｅｒｎｅｔ　Ｔｅｃｈｎｏｌｏｇｙ　ｐｒｏｇｒａｍ！
+                    <br/>
+                    <br/>
+                    Ｃｌｉｃｋ　ａｎｙ　ｏｆ　ｔｈｅ　ｂｕｔｔｏｎｓ　ｂｅｌｏｗ　ｔｏ　ｒｅｄｉｒｅｃｔ　ｔｏ　ｔｈｅ　ｒｅｓｐｅｃｔｉｖｅ　ｓｉｇｎ－ｕｐ　ｐａｇｅ！
+                </span>
+            </div>
+            <asp:Button runat="server"/>
+            <asp:Button runat="server"/>
+            <asp:Button runat="server"/>
+            <asp:Button runat="server"/>
         </div>
     </form>
 </body>
