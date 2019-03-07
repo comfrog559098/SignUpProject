@@ -18,7 +18,16 @@
             </nav>
         </div>
          <div id="test">
-
+             <div id="text">
+                <span>
+                     Ｉｆ　ｙｏｕ　ｈａｖｅ　ａｎｙ　ｑｕｅｓｔｉｏｎｓ，　ｕｓｅ　ｔｈｅ　ｆｏｌｌｏｗｉｎｇ　ｔｏ　ｃｏｎｔａｃｔ　ｙｏｕｒ　ｗｅｂ－ｈｏｓｔｉｎｇ　ｐｒｏｖｉｄｅｒ　．　．　．
+                    <br/>
+                    <br/>
+                    <asp:Label ID="Label1" runat="server" Text="Ｐｈｏｎｅ："></asp:Label>
+                    <br />
+                    <asp:Label ID="Label2" runat="server" Text="Ξｍａｉｌ："></asp:Label>
+                </span>
+            </div>
         </div>
     </form>
 </body>
