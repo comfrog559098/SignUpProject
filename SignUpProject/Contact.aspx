@@ -12,8 +12,8 @@
         <div class="navbar">
             <nav id="mainlinks">
                  <ul>
-                    <li><a href="index.aspx">Home</a></li>
-                    <li><a href="Contact.aspx">Contact</a> </li>
+                    <li><a href="index.aspx">Ｈｏｍｅ</a></li>
+                    <li><a href="Contact.aspx">Ｃｏｎｔａｃｔ</a> </li>
                 </ul>
             </nav>
         </div>
@@ -25,7 +25,7 @@
                     <br/>
                     <asp:Label ID="Label1" runat="server" Text="Ｐｈｏｎｅ："></asp:Label>
                     <br />
-                    <asp:Label ID="Label2" runat="server" Text="Ξｍａｉｌ："></asp:Label>
+                    <asp:Label ID="Label2" runat="server" Text="Ｅｍａｉｌ："></asp:Label>
                 </span>
             </div>
         </div>
