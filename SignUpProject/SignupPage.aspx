@@ -24,11 +24,15 @@
                 <br/>
                 <label style="float:right;">First Name:</label>
                 <br/>
+                <br/>
                 <label style="float:right;">Last Name:</label>
+                <br/>
                 <br/>
                 <label style="float:right;">Email:</label>
                 <br/>
+                <br/>
                 <label style="float:right;">Home Phone:</label>
+                <br/>
                 <br/>
                 <label style="float:right;">Cell Phone:</label>
                 <br/>
@@ -41,11 +45,15 @@
                 <br/>
                 <asp:TextBox runat="server"  class="textboxes" Width="305px"/>
                 <br/>
-                <asp:TextBox runat="server"  class="textboxes" Width="305px"/>
                 <br/>
                 <asp:TextBox runat="server"  class="textboxes" Width="305px"/>
                 <br/>
+                <br/>
                 <asp:TextBox runat="server"  class="textboxes" Width="305px"/>
+                <br/>
+                <br/>
+                <asp:TextBox runat="server"  class="textboxes" Width="305px"/>
+                <br/>
                 <br/>
                 <asp:TextBox runat="server"  class="textboxes" Width="305px"/>
                 <br/>
