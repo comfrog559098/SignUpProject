@@ -20,14 +20,11 @@
             </div>
 
             <div id="buttons">
-              
-                <asp:Button runat="server" class="eggnog" Width="305px" Text="【﻿Ｂｒｏｗｓｅｒ　Ｂｙｔｅｓ】" OnClick="Unnamed4_Click"/>
-                <asp:Button runat="server" class="eggnog" Width="305px" Text="【﻿Ｓｕｒｇｅ　Ｐｒｏｔｅｃｔｏｒｓ】" OnClick="Unnamed1_Click"/>
-                <asp:Button runat="server" class="eggnog" Width="305px" Text="【﻿Ｅｎｄ　Ｇａｍｅ】" OnClick="Unnamed2_Click"/>
-                <asp:Button runat="server" class="eggnog" Width="305px" Text="【﻿Ｒｏｂｏｈｏｓｔ】" OnClick="Unnamed3_Click"/>
-                                
-            </div>   
-            
+                <asp:Button runat="server"  ID="browserbytes" class="eggnog" Width="305px" Text="【﻿Ｂｒｏｗｓｅｒ　Ｂｙｔｅｓ】" OnClick="Unnamed4_Click"/>
+                <asp:Button runat="server"  ID="surgeprotectors" class="eggnog" Width="305px" Text="【﻿Ｓｕｒｇｅ　Ｐｒｏｔｅｃｔｏｒｓ】" OnClick="Unnamed1_Click"/>
+                <asp:Button runat="server"  ID="endgame" class="eggnog" Width="305px" Text="【﻿Ｅｎｄ　Ｇａｍｅ】" OnClick="Unnamed2_Click"/>
+                <asp:Button runat="server"  ID="robohost" class="eggnog" Width="305px" Text="【﻿Ｒｏｂｏｈｏｓｔ】" OnClick="Unnamed3_Click"/>
+            </div>
         </div>
     </form>
 </body>

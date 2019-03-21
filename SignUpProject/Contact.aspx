@@ -11,9 +11,8 @@
     <form id="form1" runat="server">
         <div class="navbar">
             <nav id="mainlinks">
-                 <ul>
+                <ul>
                     <li><a href="index.aspx">Ｈｏｍｅ</a></li>
-                    <li><a href="Contact.aspx">Ｃｏｎｔａｃｔ</a> </li>
                 </ul>
             </nav>
         </div>
