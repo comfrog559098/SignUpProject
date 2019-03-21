@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
@@ -42,13 +43,22 @@ public partial class SignupPage : System.Web.UI.Page
             return;
         }
 
+        SqlParameter paramfirst = new SqlParameter("firstname", SqlDbType.VarChar);
+        SqlParameter paramlast = new SqlParameter("firstname", SqlDbType.VarChar);
+        SqlParameter paramemail = new SqlParameter("firstname", SqlDbType.VarChar);
+        SqlParameter paramhome = new SqlParameter("firstname", SqlDbType.VarChar);
+        SqlParameter paramcell = new SqlParameter("firstname", SqlDbType.VarChar);
+
+        paramfirst.SqlValue = "";
+
         string firstname = firstnametext.Text;
         string lastname = lastnametext.Text;
         string email = emailtext.Text;
         string homephone = homephonetext.Text;
         string cellphone = cellphonetext.Text;
 
-        string command2 = @"
+
+        SqlCommand cmd = new SqlCommand(@"
 INSERT INTO [dbo].[Users]
            ([Firstname]
            ,[Lastname]
@@ -57,14 +67,19 @@ INSERT INTO [dbo].[Users]
            ,[CellPhone]
            ,[SignupGroup])
      VALUES
-           ('"+firstname+@"',
-           '"+lastname+@"',
-           '"+email+@"',
-           '"+homephone+ @"',
-           '"+cellphone+ @"',
-           '"+Application["host"]+@"')
-";
-        SqlCommand cmd = new SqlCommand(command2, conn);
+           ('@firstname',
+           '@lastname',
+           '@email',
+           '@homephone',
+           '@cellphone',
+           '@signupgroup')", conn);
+
+        cmd.Parameters.AddWithValue("@firstname", firstname);
+        cmd.Parameters.AddWithValue("@lastname", lastname);
+        cmd.Parameters.AddWithValue("@email", email);
+        cmd.Parameters.AddWithValue("@homephone", homephone);
+        cmd.Parameters.AddWithValue("@cellphone", cellphone);
+        cmd.Parameters.AddWithValue("@signupgroup", Application["host"]);
         cmd.ExecuteNonQuery();
         conn.Close();
         Response.Redirect("Success.aspx");

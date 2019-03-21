@@ -1,6 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="index.aspx.cs" Inherits="index" %>
 <!DOCTYPE html>
 <link href="Styles/index.css" rel="stylesheet" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css?family=Acme|Lobster|Playfair+Display" rel="stylesheet">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
