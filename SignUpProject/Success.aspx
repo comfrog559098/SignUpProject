@@ -9,6 +9,14 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <div class="navbar">
+            <nav id="mainlinks">
+                <ul>
+                    <li><a href="index.aspx">Ｈｏｍｅ</a></li>
+                    <li><a href="contact.aspx">Ｃｏｎｔａｃｔ</a></li>
+                </ul>
+            </nav>
+        </div>
         <div id="test">
             <div id="text">
                 <span>
