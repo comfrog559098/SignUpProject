@@ -20,20 +20,14 @@
             </div>
 
             <div id="buttons">
-                <div id="BB">
-                    <asp:Button runat="server"  class="eggnog" Width="305px" Text="【﻿Ｂｒｏｗｓｅｒ　Ｂｙｔｅｓ】" OnClick="Unnamed4_Click"/>
-                </div>
-                <div id="SP">
-                    <asp:Button runat="server"  class="eggnog" Width="305px" Text="【﻿Ｓｕｒｇｅ　Ｐｒｏｔｅｃｔｏｒｓ】" OnClick="Unnamed1_Click"/>
-                </div>
-                <div id ="EG">
-                    <asp:Button runat="server"  class="eggnog" Width="305px" Text="【﻿Ｅｎｄ　Ｇａｍｅ】" OnClick="Unnamed2_Click"/>
-                </div>
-                <div id="RH">
-                    <asp:Button runat="server"  class="eggnog" Width="305px" Text="【﻿Ｒｏｂｏｈｏｓｔ】" OnClick="Unnamed3_Click"/>
-                </div>
-                
-            </div>
+              
+                <asp:Button runat="server" class="eggnog" Width="305px" Text="【﻿Ｂｒｏｗｓｅｒ　Ｂｙｔｅｓ】" OnClick="Unnamed4_Click"/>
+                <asp:Button runat="server" class="eggnog" Width="305px" Text="【﻿Ｓｕｒｇｅ　Ｐｒｏｔｅｃｔｏｒｓ】" OnClick="Unnamed1_Click"/>
+                <asp:Button runat="server" class="eggnog" Width="305px" Text="【﻿Ｅｎｄ　Ｇａｍｅ】" OnClick="Unnamed2_Click"/>
+                <asp:Button runat="server" class="eggnog" Width="305px" Text="【﻿Ｒｏｂｏｈｏｓｔ】" OnClick="Unnamed3_Click"/>
+                                
+            </div>   
+            
         </div>
     </form>
 </body>

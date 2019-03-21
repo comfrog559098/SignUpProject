@@ -105,8 +105,4 @@ nav#mainlinks a:hover {
     transition: 0.6s;
 }
 
-@media screen and (max-width:800px) {
-    .BB, .SP, .EG, .RH{
-        width: 100%
-    } 
-}
+
