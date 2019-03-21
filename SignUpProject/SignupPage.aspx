@@ -62,15 +62,15 @@
                 <br/>
                 <br/>
                 <br/>
-                <asp:TextBox runat="server"  class="textboxes" Width="305px"/>
+                <asp:TextBox runat="server"  class="textboxes" Width="305px" ID="homephonetext"/>
                 <br/>
                 <br/>
                 <br/>
-                <asp:TextBox runat="server"  class="textboxes" Width="305px"/>
+                <asp:TextBox runat="server"  class="textboxes" Width="305px" ID="cellphonetext"/>
                 <br/>
             </div>
             <div Style="height:25%">
-                <asp:Button runat="server" Text="Submit" Style="margin-top:40px; width:300px; height: 50px; margin-left: 45%; margin-right: 49%;" BackColor="#FF6AD5" BorderStyle="none"/>
+                <asp:Button runat="server" OnClick="Button1_Click" Text="Submit" Style="margin-top:40px; width:300px; height: 50px; margin-left: 45%; margin-right: 49%;" BackColor="#FF6AD5" BorderStyle="none"/>
             </div>
         </div>
     </form>
