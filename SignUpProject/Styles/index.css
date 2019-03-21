@@ -24,7 +24,10 @@ body {
     width: 100%;
     display:flex;
     justify-content: center;
+
 }
+
+
 
 input[type="submit"] {
     margin: 1%;
@@ -39,7 +42,7 @@ width: 100%; text-align: center; padding-top: 80px;
 }
 
 #test > button {
-    width: auto;
+    width: 25%;
 }
 
 #text {
@@ -101,4 +104,10 @@ nav > ul > li > a:hover, nav > ul > li > a:active {
 nav#mainlinks a:hover {
     background-color: whitesmoke;
     transition: 0.6s;
+}
+
+@media screen and (max-width:800px) {
+    .BB, .SP, .EG, .RH{
+        width: 100%
+    } 
 }

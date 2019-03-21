@@ -1,6 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="index.aspx.cs" Inherits="index" %>
 <!DOCTYPE html>
 <link href="Styles/index.css" rel="stylesheet" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css?family=Acme|Lobster|Playfair+Display" rel="stylesheet">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
@@ -19,10 +20,19 @@
             </div>
 
             <div id="buttons">
-                <asp:Button runat="server"  class="eggnog" Width="305px" Text="【﻿Ｂｒｏｗｓｅｒ　Ｂｙｔｅｓ】" OnClick="Unnamed4_Click"/>
-                <asp:Button runat="server"  class="eggnog" Width="305px" Text="【﻿Ｓｕｒｇｅ　Ｐｒｏｔｅｃｔｏｒｓ】" OnClick="Unnamed1_Click"/>
-                <asp:Button runat="server"  class="eggnog" Width="305px" Text="【﻿Ｅｎｄ　Ｇａｍｅ】" OnClick="Unnamed2_Click"/>
-                <asp:Button runat="server"  class="eggnog" Width="305px" Text="【﻿Ｒｏｂｏｈｏｓｔ】" OnClick="Unnamed3_Click"/>
+                <div id="BB">
+                    <asp:Button runat="server"  class="eggnog" Width="305px" Text="【﻿Ｂｒｏｗｓｅｒ　Ｂｙｔｅｓ】" OnClick="Unnamed4_Click"/>
+                </div>
+                <div id="SP">
+                    <asp:Button runat="server"  class="eggnog" Width="305px" Text="【﻿Ｓｕｒｇｅ　Ｐｒｏｔｅｃｔｏｒｓ】" OnClick="Unnamed1_Click"/>
+                </div>
+                <div id ="EG">
+                    <asp:Button runat="server"  class="eggnog" Width="305px" Text="【﻿Ｅｎｄ　Ｇａｍｅ】" OnClick="Unnamed2_Click"/>
+                </div>
+                <div id="RH">
+                    <asp:Button runat="server"  class="eggnog" Width="305px" Text="【﻿Ｒｏｂｏｈｏｓｔ】" OnClick="Unnamed3_Click"/>
+                </div>
+                
             </div>
         </div>
     </form>
