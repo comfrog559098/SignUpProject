@@ -2,18 +2,29 @@
     padding: 0;
     margin: 0;
     height: 100%;
-    background: -webkit-linear-gradient(to top,#FF6AD5, #94D0FF);
-    background: linear-gradient(to top, #FF6AD5, #94D0FF);
 }
 
 body {
     margin: 0;
     padding: 0;
     width: 100%;
+    background-image: linear-gradient(to top, #FF6AD5, #94D0FF);
 }
 
 .pagetext {
     width: 100%;
     text-align: center;
     padding-top: 80px;
+}
+
+#left {
+    margin: 0 auto;
+    background-color: red;
+    background-image: linear-gradient(to top, #94D0FF, #FF6AD5);
+}
+#categories {
+    text-align: center;
+}
+.lblcats {
+    
 }
