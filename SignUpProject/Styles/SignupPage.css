@@ -19,12 +19,7 @@ body {
 
 #left {
     margin: 0 auto;
-    background-color: red;
-    background-image: linear-gradient(to top, #94D0FF, #FF6AD5);
 }
 #categories {
     text-align: center;
-}
-.lblcats {
-    
 }
